@@ -1,0 +1,21 @@
+-파일 작성
+git add .
+git commit -m "A"
+git checkout -b develop
+-파일 수정
+git add .
+git commit -m "B"
+git checkout master
+- 파일 수정
+git commit -am "C"
+git merge develop
+- 파일 수정
+git commit -am "D"
+git checkout develop
+-파일 수정
+git commit -am "E"
+git checkout master
+git merge develop
+- 파일 수정
+git commit -am "F"
+git checkout develop
